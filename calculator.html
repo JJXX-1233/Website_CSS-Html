@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Calculator</title> 
+      <!-- using the protopype CSS file. its lightweight and easy to use-->
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <h1>Welcome to My Calculator</h1>
+    
+     <!--this is the main stroucture of the calculator -->
+
+    <div id = "cal" class = "calculator" >
+        <h1>Im just a calculator</h1>
+        <input type="number" placeholder="number1" id="num1"><br />   <!-- this holds the 1st value, thats going to be used-->
+        <input type="number" placeholder="number2" id = "num2"><br />   <!-- this is the second -->
+        <br/>
+        <!-- this runs addititon, subtraction, multiplication and division into the JS -->
+        <button id="add">+</button> 
+
+        <button id = "sub">-</button>
+
+        <button id = "multi">*</button>
+        
+        <button id = "div">/</button>
+        <br/>
+          <!--result MUST be READONLY -->
+        <input type="number" id = "result" readonly>
+        <a href="login.html">
+
+              <!-- a way to get back  -->
+
+            <button>Back to Login</button>  
+        </a>
+    
+    
+    </div>
+  <!-- connecting the JS file -->
+    <script src="calculator.js"></script>
+</body>
+</html>

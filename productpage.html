@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>   <!--i dividual products -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!--the  main Product intoduction -->
+    <div class="container">
+
+        <div class = "ProductMenuHeader" id = "myHeader">
+            <div class="navbar" >
+
+                <div class="logo">
+                    <a href="index.html">   <!-- logo when click go back the menu -->
+                        <img src="images/logo.png" width = "100px">
+
+                    </a>
+                    
+        
+                </div>
+                <nav>
+                    <ul id="pMenuItems">   <!-- the menu -->
+                        <div class="madimi-one-regular">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="MenuPage.html">Our Products</a></li>
+                            <li><a href="index.html">About us</a></li>
+                            <li><a href="help2\help2.html">Help</a></li>
+                            <li><a href="login.html">Your Account</a></li>
+                        </div>
+                        
+                    </ul>
+                </nav>
+                <img src="images/CartThing.png" width="32px" height="32px" >
+                <img src="images/menu.png" width="30px" height="30px" class="menuicon" onclick="menutoggle()" >   <!-- mobile drop down menu-->
+        
+            </div>
+
+
+        </div>
+        
+        
+        
+
+
+    </div>
+
+    <!-- Product Page -->
+    <div class="anta-regular">
+        <div class="container singleproduct">
+            <div class = "row">
+                <div class = "c2">
+                    <img src="images/GamingPC.jpg" width = 100%>   <!-- the image of the product, take 50% of screen space-->
+
+
+                </div>
+                <div class = "c2">
+                    <p>Home >> Product >> GamingPC </p>  <!-- the path of the product -->
+                    <h1>Gaming PC</h1>  <!-- the name of the product -->
+                    <p>This is a home gaming computer, that has a intel i5 cpu and 
+                        a 1660TI gpu, 16gb of ram and a 1TB SSD. </p> <!-- the description of the product -->
+                    <h4>£345.88</h4> <!-- the price of the product -->
+                    <select id="colourSelect" > <!-- the colour avliable of the product -->
+                        <option>Pick a colour</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                        <option>Black</option>
+                    </select>
+                    <input type="number" id="quantityInput" value="1"> <!-- the quantity of the product -->
+                    <a href="#" id="addToCartButton" class="button">Add to cart</a>   <!-- add to cart process. saves and output the cart information-->
+
+
+                </div>
+            </div>
+            
+                
+    
+    
+           
+
+        </div>
+       
+    
+    </div>   
+
+
+
+   
+            
+            
+            
+
+
+
+   
+
+
+
+
+    <div class="footer" id = "end">   <!-- same footer  -->
+        <div class="container">
+            <div class="row">
+                <div class="fc1">
+                    <h3>Download our app</h3>  <!-- download the app -->
+                    <p>Download our app for android and ios</p> 
+                    <div class="aLogo">
+                        <img src="images/app-store.png">  <!-- the app store logo -->
+                        <img src="images/play-store.png"> <!-- the play store logo -->
+                    </div>
+
+                </div>
+                <div class="fc2">
+                    <a href="index.html">  <!-- the logo when clicked goes back to the menu -->
+                        <img src="images/logo.png" width="100px" height="100px">
+
+                    </a>
+                    
+                    <p>Providing new tech.</p> <!-- the slogan of the company -->
+
+                </div>
+                <div class="fc3">
+                    <h3>Useful Links</h3> <!-- the useful links -->
+                    <ul>
+                        <li>Vouchers</li>
+                        <li>Blog</li>
+                        <li>Return</li>
+                        <li>Join us</li>
+                    </ul>
+
+                </div>
+                <div class="fc4">
+                    <h3>Follow us</h3> <!-- the social media links -->
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Facebook</li>
+                        <li>Snapchat</li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <p>Copyright 2024 - Chufan</p> <!-- the copy right -->
+        </div>
+        
+        
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="Productpage.js"></script>  <!-- the JS file -->
+
+
+
+
+
+</body>
+
+
+</html>

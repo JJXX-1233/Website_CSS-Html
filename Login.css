@@ -1,0 +1,58 @@
+form{ 
+    width: 600px;
+    margin: 200px auto;
+}
+div{
+    width: 100%;
+    margin: 15px auto;
+}
+label{
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+}
+input{
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+button{
+    width: 300px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #267229;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+span{
+    color: red;
+    display: block;
+    margin-left: 20px;
+    font-style: italic;
+
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div input[type=number]{
+    margin: 8px 0;
+    padding: 8px;
+    width: 96%;
+    font-size: 16px;
+
+
+}
+div input[type = number]:read-only{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    <div class="background-img"> 
+        <div class="header">
+        
+        <a href="G:\VSCodeFiles\HtmlStuff\index.html">
+            <button class="back">
+                <img src="backbutton.png" width="100px" height="100px">
+            </button>
+          </a>
+          <div header-title>
+            <h1>How can we help?</h1>
+          </div>
+          <div class="header-right">
+            <a href="index.html">
+            <button type="button" class="back">
+                <img src="logo.png" width="100px" height="100px">
+            </button>
+          </a>
+          </div>
+        </div>
+    
+    <div class="container">
+        <ul class="accordion">
+
+
+            <h1>Frequently Asked Questions</h1>
+            <li>
+                <input type="radio" name="accordion" id="first">
+                <label for="first">Can you help my company with building a technology plan?</label>
+                <div class="content">
+                    <p>We certainly can. We can support you with building a Technology Plan for your organisation and
+                        advise you on how to make the deployment happen. The scope of work is all about creating pull
+                        from assets and projects through a selection of top technologies, and defining the specific
+                        actions leading towards successful deployment.
+                    </p>
+                    <p>We can advise you about applicable technologies, based on challenges/opportunities, as well as,
+                        what has been done by other operators in analogue assets/projects. This is all captured in a
+                        technology plan (typically 20-30 pages).
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second">
+                <label for="second">Does the transaction take place via the platform?</label>
+                <div class="content">
+                    <p>No, but it starts from the tech page. You can send a message to the supplier via the contact form
+                        and request a quote or schedule a meeting to discuss. Then, the moment you want to purchase the
+                        technology, it follows your normal procurement process.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third">
+                <label for="third">Who supplies the information for tech pages?</label>
+                <div class="content">
+                    <p>The tech suppliers provide the information, with the exception of user/expert reviews. These
+                        user/expert reviews are never anonymously, thereby providing the checks and balances for claims
+                        made on the pages.
+                    </p>
+                    <p>Before reviews are published online, the CodeByte team reviews the information provided and makes
+                        sure they pass the standards we set for technology pages.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth">
+                <label for="fourth">What is your business model?</label>
+                <div class="content">
+                    <p>We earn our money by selling subscriptions to suppliers and end-users. See our website for our
+                        offerings.
+                    </p>
+                </div>
+            </li>
+    </div>
+
+
+
+
+
+
+
+    <div class="container"> 
+                
+        <img id="helpme" src="helpme.jpg" height="400px" width="325px" >
+      
+
+        <form name="cForm">
+            
+            <h1>Contact Us!</h1>
+            <input autocomplete="off" type="text" id="firstName" placeholder="First Name" required>
+            <input autocomplete="off" type="text" id="lastName" placeholder="Last Name" required>
+            <div class="email"><input autocomplete="off" type="text" id="email" placeholder="Email" required></div>
+            <h4>Query</h4>
+            <textarea id="query" required></textarea>
+            <button type="button" id="submit" class="btn" onclick="openPopup()">Send</button>
+            <div class="popup" id="popup">
+                <img src="tick.png">
+                <h1>Thank You</h1>
+                <p>Your details have been submitted.</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </form>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="fc1">
+                    <h3>Download our app</h3>
+                    <p>Download our app for android and ios</p>
+                    <div class="aLogo">
+                        <img src="app-store.png">
+                        <img src="play-store.png">
+                    </div>
+
+                </div>
+                <div class="fc2">
+                    <a href="index.html">
+                        <button type="button" class="back">
+                            <img src="logo.png" width="100px" height="100px">
+                        </button>
+                      </a>
+                    
+                    <p>Providing new tech.</p>
+
+                </div>
+                <div class="fc3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Vouchers</li>
+                        <li>Blog</li>
+                        <li>Return</li>
+                        <li>Join us</li>
+                    </ul>
+
+                </div>
+                <div class="fc4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Facebook</li>
+                        <li>Snapchat</li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr>
+            <p>Copyright 2024 - Chufan</p>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="myscripts.js"></script>
+
+       
+</body>
+
+</html>
+
